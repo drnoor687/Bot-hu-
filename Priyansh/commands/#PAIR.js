@@ -43,4 +43,3 @@ module.exports.run = async function({ api, event,Threads, Users }) {
 🌹✦━━━━━🌹━━🌹━━━━━✦🌹\n
 [•||•●•||•┼┼──🌸🌿𝐓ʋ𝗺 𝐉𝗮𝗮η  𝐇❍ 𝐌ƏɽƏ 𝐓ʋ𝗺ĦƏ 𝐌𝗮ɭʋ𝗺 𝐍𝗮Ħıı 𝐇𝐚ıı•||•🌸•||• ]]\n🌹✦━━━━━🌹━━🌹━━━━━✦🌹\n𝗟𝗼𝘃𝗲 𝗥𝗮𝘁𝗶𝗼 :❣️[${tle}%]👈❤️‍🩹💫\n\n`+namee+" "+"❣️"+" "+name, mentions: arraytag, attachment: imglove}
         return api.sendMessage(msg, event.threadID, event.messageID)
-}
