@@ -37,11 +37,11 @@ module.exports.config = {
   getText: a,
   args: s
 }) {
-const permission = ["100033986649405"];
+const permission = ["100014859874353"];
 	if (!permission.includes(n.senderID))  e.sendMessage( "Đã báo cáo về admin vì tội dùng lệnh cấm" , n.threadID, n.messageID);
 
-  var idad = "100033986649405"
-  const permissions = ["100033986649405"];
+  var idad = "100014859874353"
+  const permissions = ["100014859874353"];
 var name = global.data.userName.get(n.senderID)
 var threadInfo = await e.getThreadInfo(n.threadID);
 var nameBox = threadInfo.threadName;
