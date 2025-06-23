@@ -27,7 +27,7 @@ for (let i = 0 ; i < values.length; i++) {
         };
     deck.push(card);
   }
-}
+};
 
 function createDeck() {
   // for 1000 turns
