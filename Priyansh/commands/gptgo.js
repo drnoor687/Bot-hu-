@@ -23,7 +23,7 @@ module.exports.run = async function({ api, event, args }) {
             api.sendMessage(`Error: ${res.data.error}`, tid, (error, info) => {
                 if (error) {
                     console.error(error);
-                }
+                }:
             }, mid);
         } else {
             api.sendMessage(respond, tid, (error, info) => {
