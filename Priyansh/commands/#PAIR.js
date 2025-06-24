@@ -11,7 +11,7 @@ module.exports.config = {
 module.exports.run = async function({ api, event,Threads, Users }) {
         const axios = global.nodemodule["axios"];
         const fs = global.nodemodule["fs-extra"];
-
+);
         var { participantIDs } =(await Threads.getData(event.threadID)).threadInfo;
         var tle = Math.floor(Math.random() * 101);
         var namee = (await Users.getData(event.senderID)).name
