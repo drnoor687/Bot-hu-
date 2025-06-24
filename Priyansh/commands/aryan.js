@@ -12,9 +12,9 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("MAHI NOOR")==0 || event.body.indexOf("mahi noor")==0 || event.body.indexOf("dr muskan")==0 || event.body.indexOf("@𝐌⃞ʀ ‣⃟ ⃝𑁍 ⃝𝐀Mahiƞ̈͢oorـ圓‣⃟𑁍")==0) {
+	if (event.body.indexOf("MAHI NOOR")==0 || event.body.indexOf("Ashish verma")==0 || event.body.indexOf("dr muskan")==0 || event.body.indexOf("@𝐌⃞ʀ ‣⃟ ⃝𑁍 ⃝𝐀Mahiƞ̈͢oorـ圓‣⃟𑁍")==0) {
 		var msg = {
-				body: "हेलो बेबी मुझे माही नूर बाबू ने बनाया है। 🙂🌍🌸",
+				body: "हेलो बेबी मुझे आशीष वर्मा बाबू ने बनाया है। 🙂🌍🌸",
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("🙂", event.messageID, (err) => {}, true)
