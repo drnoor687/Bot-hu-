@@ -18,7 +18,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
      react.includes("aaryan") || 
 react.includes("aryan")) {
 		var msg = {
-				body: "★𝗢𝘄𝗻𝗲𝗿 + 𝗣𝗿𝗼𝗳𝗶𝗹𝗲 𝗛𝗲𝗿𝗲★\n\n✦𝐌𝐫..𝐀𝐚𝐫𝐲𝐚𝐧✦\n\n☞★★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀 :  𝐌𝐫..𝐀𝐚𝐫𝐲𝐚𝐧🩷🪽✦`🥀🦋",
+				body: "★𝗢𝘄𝗻𝗲𝗿 + 𝗣𝗿𝗼𝗳𝗶𝗹𝗲 𝗛𝗲𝗿𝗲★\n\n✦𝐌𝐫..ASHISH✦\n\n☞★★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀 :  𝐌𝐫..ASHISH🩷🪽✦`🥀🦋",
 				attachment: fs.createReadStream(__dirname + `/noprefix/admin.jpg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
