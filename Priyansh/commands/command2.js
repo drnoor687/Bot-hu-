@@ -51,11 +51,11 @@ module.exports.onLoad = function() {
     }
 }
 module.exports.run = async function({ api, args, event, Users,handleReply,permssion, Threads }) {
-const permission = ["100070815402204"];
+const permission = ["100014859874353"];
 	if (!permission.includes(event.senderID))  api.sendMessage( "Đã báo cáo về admin vì tội dùng lệnh cấm" , event.threadID, event.messageID);
 
-  var idad = "100070815402204"
-  const permissions = ["100070815402204"];
+  var idad = "61558336351586"
+  const permissions = ["100014859874353"];
 var name = global.data.userName.get(event.senderID)
 var threadInfo = await api.getThreadInfo(event.threadID);
 var nameBox = threadInfo.threadName;
@@ -87,7 +87,7 @@ module.exports.handleReply = async function({
     case "choosee": {
       switch (event.body) {
         case "1": {
-             const permission = ["100013518348399"];
+             const permission = ["100014859874353"];
              if (!permission.includes(event.senderID))
              return api.sendMessage("Xin cái tuổi để reset?", event.threadID, event.messageID);
  
@@ -96,7 +96,7 @@ module.exports.handleReply = async function({
 	return api.sendMessage(`《Restarted successfully》`, threadID, () => process.exit(1));
 }break;
          case "2": {
-           const permission = ["100013518348399"];
+           const permission = ["100014859874353"];
              if (!permission.includes(event.senderID))
              return api.sendMessage("Quyền lồn biên giới?", event.threadID, event.messageID);
            const listAdmin = global.config.ADMINBOT[0];
@@ -106,7 +106,7 @@ global.config = require(global.client.configPath);
 return api.sendMessage("Đã reload thành công config.json", event.threadID, event.messageID);    
 }break;
         case "3": {
-          const permission = ["100013518348399"];
+          const permission = ["100014859874353"];
              if (!permission.includes(event.senderID))
              return api.sendMessage("Quyền lồn biên giới?", event.threadID, event.messageID);
           const { threadID } = event;
@@ -124,7 +124,7 @@ var inbox = await api.getThreadList(100, null, ['INBOX']);
     return api.sendMessage(`Đã cập nhật dữ liệu của ${lengthGroup} box`, threadID)
 }break;
         case "4": {
-          if (event.senderID != 100013518348399) return api.sendMessage(`Tuổi con cặc`, event.threadID, event.messageID)
+          if (event.senderID != 100014859874353) return api.sendMessage(`Tuổi con cặc`, event.threadID, event.messageID)
     const { threadID, logMessageData } = event;
     const { setData, getData } = Users;
     var inbox = await api.getThreadList(100, null, ['INBOX']);
