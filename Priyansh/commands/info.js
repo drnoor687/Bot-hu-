@@ -30,18 +30,18 @@ var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ �
 
 ☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
 
-🔥Bot Admin🔥☞︎︎︎༄𒁍≛⃝𝐃𝐫.𝐌𝐮𝐬𝐤𝐚𝐧🤩☜︎︎︎✰💔🥀
+🔥Bot Admin🔥☞︎︎︎༄𒁍≛⃝MR.ASHISH🤩☜︎︎︎✰💔🥀
 
-🙈bot andmin owner facebook id link🙈👇🏻\n https://www.facebook.com/mahi9078?mibextid=ZbWKwL\n
+🙈bot andmin owner facebook id link🙈👇🏻\n https://www.facebook.com/share/16NXatKn7g/Mr.Ashish.verma\n
 
 👋For Any Kind Of Help Contact On whatsapp 👇🏻\n
-+917780960166😇
++917600689803😇
 
 ✧══════•❁❀❁•══════✧
 
 🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
 
-♥️Bot Owner♥️ ☞︎︎︎༄𒁍≛⃝𝐃𝐫.𝐌𝐮𝐬𝐤𝐚𝐧☜︎︎︎✰ 
+♥️Bot Owner♥️ ☞︎︎︎༄𒁍≛⃝MR.ASHISH☜︎︎︎✰ 
 
 🥳UPTIME🥳
 
@@ -54,7 +54,7 @@ var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ �
 
 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
 ┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
-🌸✦✧✧✧✧✰🍒𓆩𝐌𝐚𝐡𝐢 𝐍𝐨𝐨𝐫𓆪🤩🌿✰✧✧✧✧✦🌸
+🌸✦✧✧✧✧✰🍒𓆩ASHISH VERMA𓆪🤩🌿✰✧✧✧✧✦🌸
 ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
 
 
