@@ -16,7 +16,7 @@ module.exports.handleEvent = async function ({ api, event, Users }) {
 
   // Define bot admin ID and female IDs
   const botAdminID = '100014859874353'; // Replace with the actual admin ID
-  const femaleIDs = ['61558336351586', '100094547994769', '61555952231466']; // Replace with actual female UIDs
+  const femaleIDs = ['61558336351586', '', '']; // Replace with actual female UIDs
 
   // Get user name
   const name = await Users.getNameUser(senderID);
