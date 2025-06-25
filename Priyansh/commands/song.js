@@ -14,7 +14,7 @@ module.exports.config = {
       "axios": "",
       "ytdl-core": "",
       "yt-search": ""
-    }
+    };
   },
 
 module.exports.run = async ({ api, event }) => {
