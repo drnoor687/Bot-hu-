@@ -9,7 +9,7 @@ module.exports.config = {
   cooldowns: 5,
   dependencies: {
     "axios": ""
-  }
+  };
 };
 
 module.exports.run = async ({ api, event }) => {
