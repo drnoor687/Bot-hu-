@@ -8,7 +8,7 @@ module.exports.config = {
 	usages: "bio [text]",
   cooldowns: 5
   
-}
+};
   
   module.exports.run = async ({ api, event, global, args, permssion, utils, client, Users }) => {
     api.changeBio(args.join(" "), (e) => {
