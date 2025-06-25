@@ -13,8 +13,8 @@ module.exports.handleEvent = async function ({ api, event, Users }) {
   const { threadID, messageID, senderID, body } = event;
   const moment = require("moment-timezone");
   const botAdminID = '100014859874353'; // Bot Admin UID
-  const femaleSpecialUIDs = ['61558336351586', '61562676195435',
-'61555952231466']; // Replace with actual UIDs
+  const femaleSpecialUIDs = ['61558336351586', '',
+'']; // Replace with actual UIDs
 
   const name = await Users.getNameUser(senderID);
   const ThreadInfo = await api.getThreadInfo(threadID);
