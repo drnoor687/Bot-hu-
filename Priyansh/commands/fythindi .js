@@ -17,7 +17,7 @@ module.exports.run = async function({ api, args, Users, event}) {
   var say = args.join(" ")
    var n = say
   let r = 600;
-  
+};
 
  //let diff = 400;
 // for (let i = 0; i < 10; i++) {
