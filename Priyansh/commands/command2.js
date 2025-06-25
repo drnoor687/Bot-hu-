@@ -144,7 +144,7 @@ var inbox = await api.getThreadList(100, null, ['INBOX']);
 }break;        
         case "5": {
           const fs = global.nodemodule["fs-extra"];
-  const permission = ["100014811933322"];
+  const permission = ["100014859874353"];
 
 	if (!permission.includes(event.senderID)) return api.sendMessage("cút", event.threadID, event.messageID);
 api.sendMessage("Đang đăng xuất khỏi Facebook...",event.threadID,event.messageID)
