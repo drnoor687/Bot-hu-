@@ -200,7 +200,7 @@ module.exports.handleEvent = async function ({ api, event, Users }) {
   const messageBody = event.body.toLowerCase();
   if (messageBody.includes("bot") || 
       messageBody.includes("tak") || 
-      messageBody.includes("टकलू")) {
+      messageBody.includes("chitti babu")) {
     // Show typing indicator
     await api.sendTypingIndicator(threadID);
 
