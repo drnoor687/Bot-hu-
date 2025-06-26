@@ -11,7 +11,7 @@ module.exports.config = {
     "request":"",
     "fs-extra":"",
     "axios":""
-  }
+  },
     
 };
 
