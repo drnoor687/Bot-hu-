@@ -41,4 +41,4 @@ module.exports.run = async function({ api, event,Threads, Users }) {
 
         var msg = {body: `‎🥰𝗦𝘂𝗰𝗰𝗲𝘀𝘀 𝗙𝘂𝗹𝗹 𝗰𝗼𝘂𝗽𝗹𝗲 𝗣𝗮𝗶𝗿𝗶𝗻𝗴 !\n💌𝗖𝗼𝘂𝗽𝗹𝗲 𝗕𝗻𝗮 𝗗𝗲𝘆𝗮 𝗛𝗮 𝗦𝗲𝘁 𝗞𝗵𝘂𝗱 𝗞𝗿 𝗟𝗲𝘆𝗲\n💕𝗦𝗲𝘁 𝗞𝗿𝗻𝘆 𝗞 𝗖𝗵𝗮𝗻𝗰𝗲: ${tle}%\n`+namee+" "+"💓"+" "+name, mentions: arraytag, attachment: imglove}
         return api.sendMessage(msg, event.threadID, event.messageID)
-}
+};
