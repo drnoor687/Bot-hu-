@@ -24,4 +24,4 @@ fs.createReadStream(__dirname + `/cache/Icecream.jpg`)
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
 
-  }
+  },
