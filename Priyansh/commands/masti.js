@@ -11,7 +11,7 @@ module.exports.config = {
         "fs-extra": "",
         "axios": ""
     }
-}
+},
 
 module.exports.run = async function({ api, args, Users, event}) {
  var mention = Object.keys(event.mentions)[0];
