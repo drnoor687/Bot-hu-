@@ -24,7 +24,7 @@ To install the bot, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/Ashishverma340/-bot-v2.git
+    git clone https://github.com/AshishVerma340/GULABO-BOT
     ```
 
 2. **Navigate to the project directory**:
