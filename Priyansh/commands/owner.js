@@ -24,20 +24,20 @@ const fs = global.nodemodule["fs-extra"];
      ];
      var callback = () => api.sendMessage({body:`🔰𝙊𝙒𝙉𝙀𝙍 𝙄𝙉𝙁𝙊🔰
 
-   ༄𒁍≛⃝𝐃𝐫.𝐌𝐮𝐬𝐤𝐚𝐧•◡•)
+   ༄𒁍≛⃝M𝐫.ASHISH•◡•)
 
-𝐀𝐠𝐞 : 17
+𝐀𝐠𝐞 : 24
 
-𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 𝐖𝐢𝐭𝐡 : 𝐒𝐈𝐍𝐆𝐋𝐄 𝐁𝐇𝐀𝐓𝐀𝐊 𝐑𝐇I 𝐇𝐀𝐈
+𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 𝐖𝐢𝐭𝐡 : 𝐒𝐈𝐍𝐆𝐋𝐄 𝐁𝐇𝐀𝐓𝐀𝐊 𝐑𝐇A 𝐇𝐀𝐈
 
-𝐅𝐫𝐨𝐦 : 𝐁𝐈𝐊𝐀𝐍𝐄𝐑 (𝐑.𝐉)
+𝐅𝐫𝐨𝐦 : CHHATTISGARH  (𝐑.𝐉.N)
 
-𝐒𝐭𝐮𝐝𝐲 : 𝐍𝐔𝐑𝐒𝐈𝐍𝐆
+𝐒𝐭𝐮𝐝𝐲 : B.A FAYNL
 
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤  : https://www.facebook.com/mahi9078?mibextid=ZbWKwL
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤  : https://www.facebook.com/aashish.verma.31392410?mibextid=ZbWKwL
 
-𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : +91 7780960166
+𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : +91 7600789803
 
-Allah hu Akbar 🇸🇦🇸🇦🌍❤️🙂!❤🙂♣️`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
+JAI SHREE RAM JI 🥀 🌍❤️🙂!❤🙂♣️`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/1.jpg")).on("close",() => callback());
    };
