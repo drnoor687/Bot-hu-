@@ -20,8 +20,8 @@ const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
     var link = [
-"https://l.facebook.com/l.php?u=https%3A%2F%2Fi.ibb.co%2Fjgk6rB0%2F7ce2390636d1a46a331662dbaaf693d6.jpg&h=AT3ZrRZoNnjDCILJvIDoFg87X9M3-EUC_hWGeCrd5W1ZcWktintMa3YO4faJ5bqh-5aHMiJco4hbCh2Mpa2okuhhh8cFaHeyUfmeYSQ9ghHLyNkjDVfmm4iMBvr8UEwxhAoe_qCKEApFm7g&s=1
-"
+"https://i.ibb.co/jgk6rB0/7ce2390636d1a46a331662dbaaf693d6.jpg"
+];
      ];
      var callback = () => api.sendMessage({body:`🔰𝙊𝙒𝙉𝙀𝙍 𝙄𝙉𝙁𝙊🔰
 
