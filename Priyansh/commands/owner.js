@@ -20,7 +20,7 @@ const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
     var link = [
-"[FB-IMG-1751655116411.jpg]"
+"https://i.postimg.cc/P5jb2S8X/FB-IMG-1751655116411.jpg"
      ];
      var callback = () => api.sendMessage({body:`🔰𝙊𝙒𝙉𝙀𝙍 𝙄𝙉𝙁𝙊🔰
 
