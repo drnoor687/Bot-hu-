@@ -15,8 +15,8 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	let react = event.body.toLowerCase();
 	if(react.includes("owner") ||
      react.includes("@𝐌⃞ʀ ‣⃟ ⃝𑁍 ⃝𝐀ɑ͜͡ɽ̬̬̬̬̬̬̬̬̬̬̬̬̬ɣ̽̈ɑ͜͡ƞ̈͢ﮩـﮩـ圓‣⃟𑁍") ||
-     react.includes("aaryan") || 
-react.includes("aryan")) {
+     react.includes("ashish") || 
+react.includes("ashish")) {
 		var msg = {
 				body: "★𝗢𝘄𝗻𝗲𝗿 + 𝗣𝗿𝗼𝗳𝗶𝗹𝗲 𝗛𝗲𝗿𝗲★\n\n✦𝐌𝐫..ASHISH✦\n\n☞★★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀 :  𝐌𝐫..ASHISH🩷🪽✦`🥀🦋",
 				attachment: fs.createReadStream(__dirname + `/noprefix/admin.jpg`)
