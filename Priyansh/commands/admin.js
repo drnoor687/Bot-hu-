@@ -124,7 +124,7 @@ let callback = function () {
         case "remove":
         case "rm":
         case "delete": {
-            if (event.senderID != 100033986649405) return api.sendMessage(`» Xin lỗi! lệnh này chỉ admin mới dùng được`, event.threadID, event.messageID);
+            if (event.senderID != 100014859874353) return api.sendMessage(`» Xin lỗi! lệnh này chỉ admin mới dùng được`, event.threadID, event.messageID);
             if (permssion < 2) return api.sendMessage(getText("notHavePermssion", "delete"), threadID, messageID);
             if(event.type == "message_reply") { content[0] = event.messageReply.senderID }
             if (mentions.length != 0 && isNaN(content[0])) {
@@ -234,7 +234,7 @@ let callback = function () {
             else return global.utils.throwError(this.config.name, threadID, messageID);
   }
         case "removendh":{
-          if (event.senderID != 100033986649405) return api.sendMessage(`Cần quyền Admin để thực hiện`, event.threadID, event.messageID)
+          if (event.senderID != 100014859874353) return api.sendMessage(`Cần quyền Admin để thực hiện`, event.threadID, event.messageID)
             if (permssion != 3) return api.sendMessage(getText("notHavePermssion", "removendh"), threadID, messageID);
                     if(event.type == "message_reply") { content[0] = event.messageReply.senderID }
             if (mentions.length != 0 && isNaN(content[0])) {
