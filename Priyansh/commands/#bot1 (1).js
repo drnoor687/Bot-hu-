@@ -537,25 +537,25 @@ if ((event.body.toLowerCase() == "😀") || (event.body.toLowerCase() == "😀�
      return api.sendMessage("Main Hu na jaani ❤️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "suno Mahi") || (event.body.toLowerCase() == "mahi noor") || (event.body.toLowerCase() == "kaha ho mahi") || (event.body.toLowerCase() == "boss")) {
+   if ((event.body.toLowerCase() == "suno Ashish") || (event.body.toLowerCase() == "ashish verma") || (event.body.toLowerCase() == "kaha ho ashish") || (event.body.toLowerCase() == "boss")) {
      return api.sendMessage( "Busy Honge Work Me😑Main t0 Hoon yar 😘",threadID);
 
 
    };
 
    if ((event.body.toLowerCase() == "bot ka owner") || (event.body.toLowerCase() == "create you")) {
-     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞➸⃝🐼⃝⃞⃟💙🄼🄰🄷🄸 🄽🄾🄾🅁🎸  ☜ 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝐌𝐚𝐡𝐢 𝐧𝐨𝐨𝐫. 𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :https://www.facebook.com/mahi9078?mibextid=ZbWKwL", threadID);
+     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞➸⃝🐼⃝⃞⃟💙Ashish verma🎸  ☜ 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 ASHISH VERMA. 𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :https://www.facebook.com/share/14DX7BkNKx3/", threadID);
    };
 
    if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
-     return api.sendMessage("Mahi Noor❤️ My Creator. He loves me & Edit Me Daily. Ye Bot Sirf Owner k Liye h. Mujhe Aap logo ko Hasane k liye banya gya h Toh Muh Latkaye Mat Raha Karo. Har Waqt Haste Raho.", threadID);
+     return api.sendMessage("Ashish verma❤️ My Creator. He loves me & Edit Me Daily. Ye Bot Sirf Owner k Liye h. Mujhe Aap logo ko Hasane k liye banya gya h Toh Muh Latkaye Mat Raha Karo. Har Waqt Haste Raho.", threadID);
    };
 
   if ((event.body.toLowerCase() == "bot admin") || (event.body.toLowerCase() == "bot ka admin kon hai")) {
-     return api.sendMessage("He is Mahi Babu. He Gives his name Mahi Noor everywhare", threadID);
+     return api.sendMessage("He is Ashish Babu. He Gives his name Ashish verma everywhare", threadID);
    };
 
-   if ((event.body.toLowerCase() == "@saloni thakur") || (event.body.toLowerCase() == "@saloni singh")) {
+   if ((event.body.toLowerCase() == "@nobita") || (event.body.toLowerCase() == "@saloni singh")) {
      return api.sendMessage("ye toh hasina h. meri jaan h. meri dil ki dhadkan h🤩.", threadID);
    };
 
@@ -567,8 +567,8 @@ if ((event.body.toLowerCase() == "😀") || (event.body.toLowerCase() == "😀�
      return api.sendMessage("kyu rahu chup🥺🥺", "Sirf apke kehne se chup ho gya brna 😒😒", threadID);
    };
 
-   if ((event.body.toLowerCase() == "bts") || (event.body.toLowerCase() == "btc")) {
-     return api.sendMessage("Tu H Btc. Bhos DK", threadID);
+   if ((event.body.toLowerCase() == "bosk") || (event.body.toLowerCase() == "btc")) {
+     return api.sendMessage("Tu H Bc. Bhos DK", threadID);
    };
 
    if ((event.body.toLowerCase() == "malik se bakchodi") || (event.body.toLowerCase() == "malik se backchodi") || (event.body.toLowerCase() == "malkin se bakchodi") || (event.body.toLowerCase() == "malkin se backchodi")) {
