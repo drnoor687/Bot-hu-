@@ -1,5 +1,5 @@
 module.exports.config = {
-	name: "chikuname",
+	name: "chittibabuname",
 	version: "1.0.0",
 	hasPermssion: 0,
 	credits: "Tpk",
@@ -22,13 +22,13 @@ module.exports.handleEvent = async function({ api , event , Users }) {
   const tpkk = moment.tz("Asia/Kolkata").format("DD/MM/YYYY || HH:mm:ss");
   const fs = require("fs");
     try {
-        if (body === undefined || !(body.includes('Mahi') ||body.includes('MAHI')||body.includes('Noor')||body.includes('dr muskan')||body.includes('@Th'Əw Cʜɩĸʋ ßwßīīe Pīī'ew'))|| senderID == api.getCurrentUserID() || senderID == 'mahi') return;
+        if (body === undefined || !(body.includes('Ashish') ||body.includes('ASHISH')||body.includes('VERMA')||body.includes('MR Ashish')||body.includes('@Th'Əw Cʜɩĸʋ ßwßīīe Pīī'ew'))|| senderID == api.getCurrentUserID() || senderID == 'Ashish') return;
         const userName = await Users.getNameUser(senderID);
         const { threadName } = await api.getThreadInfo(threadID);
         api.sendMessage(`👉 ${userName} sends you a message ⚡⚡ ${tpkk} ⚡⚡ ${threadName}
-💬 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 👉: ${body}`,'100053775015582');
-api.sendMessage({body:`Mene ye msg Mahi Babu ke inbox me bhej diya h`}, event.threadID, event.messageID);
+💬 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 👉: ${body}`,'100014859874353');
+api.sendMessage({body:`Mene ye msg Ashish Babu ke inbox me bhej diya h`}, event.threadID, event.messageID);
     } catch (e) {
-        api.sendMessage(`${e}`,'100053775015582');
+        api.sendMessage(`${e}`,'100014859874353');
     }
 };
