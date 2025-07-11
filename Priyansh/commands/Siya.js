@@ -12,7 +12,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("Siya")==0 || event.body.indexOf("@Siya Raghuwanshi")==0 || event.body.indexOf("Siya")==0 || event.body.indexOf("mahi 
+	if (event.body.indexOf("Siya")==0 || event.body.indexOf("@Siya Raghuwanshi")==0 || event.body.indexOf("Siya")==0 || event.body.indexOf("Ashish 
 																																																																				 ki babu")==0) {
 		var msg = {
 				body: "❤️𝐘𝐄 𝐋𝐎 𝐒𝐈𝐘𝐀 𝐉𝐈 𝐀 𝐆𝐀𝐈🙈",
