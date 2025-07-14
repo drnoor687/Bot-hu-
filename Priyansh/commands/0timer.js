@@ -2,7 +2,7 @@ module.exports.config = {
 name: 'autosent',
 version: '10.02',
 hasPermssion: 0,
-credits: '𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭',
+credits: 'Ashish verma',
 description: 'Set Karne Ke Bad Automatically Msg Send Karega',
 commandCategory: 'group messenger',
 usages: '[]',
@@ -39,7 +39,7 @@ message: ['──── •💜• ────                𝐍𝐨𝐰 𝐢
 {
 timer: '7:30:00 AM',
 message: ['──── •💜• ────                𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 6:00 A𝐌 ⏳             𝐆𝐨𝐨𝐝 𝐌𝐨𝐫𝐧𝐢𝐧𝐠 𝐄𝐯𝐞𝐫𝐲𝐎𝐧𝐞🌅,   𝐁𝐨𝐥𝐨 𝐉𝐚𝐢 𝐒𝐡𝐫𝐞𝐞 𝐑𝐚𝐦 💖😇                   ──── •💜• ────']
-},']
+},
 },
 {
 timer: '8:30:00 AM',
