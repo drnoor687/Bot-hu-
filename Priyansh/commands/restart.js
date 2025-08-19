@@ -2,14 +2,14 @@ module.exports.config = {
 	name: "restart",
 	version: "1.0.0",
 	hasPermssion: 2,
-	credits: "𝙋𝙧𝙞𝙮𝙖𝙣𝙨𝙝 𝙍𝙖𝙟𝙥𝙪𝙩",
-	description: "Restart Bot",
-	commandCategory: "system",
+	credits: "manhIT",
+	description: "Khởi động lại Bot",
+	commandCategory: "Hệ Thống",
 	usages: "",
 	cooldowns: 5
 };
 
 module.exports.run = async ({ api, event, args }) => {
 	const { threadID, messageID } = event;
-	return api.sendMessage(`${global.config.BOTNAME} Bot are now Restarting...`, threadID, () => process.exit(1));
+	return api.sendMessage(`𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐋𝐚̣𝐢 𝐁𝐨𝐭 𝐓𝐡𝐚̀𝐧𝐡 𝐂𝐨̂𝐧𝐠 💋`, threadID, () => process.exit(1));
 }
