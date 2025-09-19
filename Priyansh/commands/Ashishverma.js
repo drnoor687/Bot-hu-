@@ -12,7 +12,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("ASHISH VERMA")==0 || event.body.indexOf("Shiv ki ladli ")==0 || event.body.indexOf("MR Ashish")==0 || event.body.indexOf("@𝐌⃞ʀ ‣⃟ ⃝𑁍 ⃝𝐀ASHISHƞ̈͢VERMAـ圓‣⃟𑁍")==0) {
+	if (event.body.indexOf(" Shiv ki ladli")==0 || event.body.indexOf("Shiv ki ladli ")==0 || event.body.indexOf("MR Ashish")==0 || event.body.indexOf("@𝐌⃞ʀ ‣⃟ ⃝𑁍 ⃝𝐀ASHISHƞ̈͢VERMAـ圓‣⃟𑁍")==0) {
 		var msg = {
 				body: "अरे बावले तेरी तो बहन होगी पर मेरी तो सीव की लाडली मेरी वाइफ है दूर रहो उस से  🙂🌍🌸",
 			}
